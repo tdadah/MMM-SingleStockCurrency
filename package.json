@@ -1,0 +1,31 @@
+{
+  "name": "MMM-SingleStockCurrency",
+  "version": "0.0.1",
+  "description": "MagicMirror module that displays the stock price of a single company or currency.",
+  "main": "MMM-SingleStockCurrency.js",
+  "author": "Tara Dadah",
+  "license": "MIT",
+  "scripts": {
+    "lint": "npm run jsonlint & npm run eslint & npm run markdownlint",
+    "eslint": "eslint *.js",
+    "jsonlint": "jsonlint --quiet --comments .",
+    "markdownlint": "markdownlint *.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tdadah/MMM-SingleStockCurrency"
+  },
+  "keywords": [
+    "MagicMirror",
+    "module",
+    "stock",
+    "currency"
+  ],
+  "devDependencies": {
+    "@prantlf/jsonlint": "^10.2.0",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "markdownlint-cli": "^0.23.2"
+  }
+}
